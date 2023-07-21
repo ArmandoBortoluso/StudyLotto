@@ -26,6 +26,7 @@ if(!File.Exists(filePath)){
                 isHeader = false;
                 continue;
             }
+            Console.WriteLine(line);
             
             fileLines.Add(line);
         }
@@ -42,5 +43,3 @@ if(!File.Exists(filePath)){
     Console.WriteLine("This week's subject is " + luckySub);
 
 }
-
-
